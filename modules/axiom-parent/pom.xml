@@ -369,12 +369,12 @@
             <dependency>
                 <groupId>org.apache.geronimo.specs</groupId>
                 <artifactId>geronimo-activation_1.1_spec</artifactId>
-                <version>1.0.2</version>
+                <version>1.1</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.geronimo.specs</groupId>
                 <artifactId>geronimo-javamail_1.4_spec</artifactId>
-                <version>1.6</version>
+                <version>1.7.1</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -384,7 +384,7 @@
             <dependency>
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging</artifactId>
-                <version>1.1.1</version>
+                <version>1.2</version>
                 <exclusions>
                     <exclusion>
                         <artifactId>avalon-framework</artifactId>
@@ -414,7 +414,7 @@
             <dependency>
                 <groupId>jaxen</groupId>
                 <artifactId>jaxen</artifactId>
-                <version>1.1.6</version>
+                <version>1.2.0</version>
                 <exclusions>
                     <exclusion>
                         <artifactId>dom4j</artifactId>
@@ -505,8 +505,8 @@
     </distributionManagement>
     <properties>
         <stax.impl.groupid>org.codehaus.woodstox</stax.impl.groupid>
-        <stax.impl.artifact>wstx-asl</stax.impl.artifact>
-        <stax.impl.version>3.2.9</stax.impl.version>
+        <stax.impl.artifact>woodstox-core-asl</stax.impl.artifact>
+        <stax.impl.version>4.4.1</stax.impl.version>
         <failIfNoTests>false</failIfNoTests>
         <commons-text.version>1.6</commons-text.version>
         <!--
