@@ -92,7 +92,7 @@
         <dependency>
             <groupId>org.codehaus.woodstox</groupId>
             <artifactId>stax2-api</artifactId>
-            <version>3.1.1</version>
+            <version>3.1.4</version>
          </dependency>
         <dependency>
             <groupId>org.apache.ws.commons.axiom</groupId>
@@ -322,7 +322,7 @@
         <axiom.version>1.2.11-wso4v14-SNAPSHOT</axiom.version>
         <exp.pkg.version.axiom>${axiom.version}</exp.pkg.version.axiom>
         <jaxen.version>1.2.0</jaxen.version>
-        <javax.mail.version>1.4.1</javax.mail.version>
+        <javax.mail.version>1.5.0-b01</javax.mail.version>
         <dom4j.version>1.6.1</dom4j.version>
         <maven.bundle.plugin.version>4.1.0</maven.bundle.plugin.version>
     </properties>
